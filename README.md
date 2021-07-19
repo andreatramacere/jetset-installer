@@ -1,3 +1,5 @@
+The following instructions explain how to install jetset from the binaries distributed on the git repo. It is advised to use python versions [3.8 - 3.9]. 
+
 1) clone the repository
 
 2) if you are using conda I suggest to create a new environment:  
