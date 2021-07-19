@@ -20,6 +20,7 @@
    - for pip: `pip install pywget`
   
 5) run the script, e.g for release 1.2.0rc8 run: 
+
    `python jetset_installer.py 1.2.0rc8`
 
 Now jetset with all the dependencies is installed!
