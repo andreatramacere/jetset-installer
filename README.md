@@ -6,7 +6,7 @@
    
    and activate the environment: `conda activate jetset`
 
-3) if you are using pip to create a new environment is optional, eg: 
+3) if you are using pip, the  creation of a new environment is optional, eg: 
     
    `pip install virtualenv`
 
