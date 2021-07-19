@@ -12,8 +12,15 @@ def install(release):
     py_v=v[0:3]
     
     base_url='https://github.com/andreatramacere/jetset/releases/download/%s'%release
-    conda_file='%s/conda-binary-%s-macos-10.15-py-%s.tar'%(base_url,release,py_v)
-    pip_file='%s/pip-binary-%s-macos-10.15-py-%s.tar'%(base_url,release,py_v)
+    
+    if platform.system()=='Darwin':
+        system_str='macos-10.15'
+    else:
+        system_str='ubuntu-latest'
+    
+
+    conda_file='%s/conda-binary-%s-%s-py-%s.tar'%(base_url,release,system_str,py_v)
+    pip_file='%s/pip-binary-%s-%s-py-%s.tar'%(base_url,release,system_str,py_v)
     
     use_conda=os.path.exists(os.path.join(sys.prefix, 'conda-meta'))
     if use_conda is True:
