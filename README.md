@@ -1,10 +1,12 @@
 1) clone the repository
 
-2) (suggested)if you are using conda create a new environment eg:  `conda create -n jetset python=3.8`
+2) if you are using conda I suggest to create a new environment:  
+   
+   `conda create -n jetset python=3.8`
    
    and activate the environment: `conda activate jetset`
 
-3) (optional)if you are using pip creante a new environment eg: 
+3) if you are using pip to create a new environment is optional, eg: 
     
    `pip install virtualenv`
 
