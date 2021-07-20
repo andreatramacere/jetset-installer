@@ -36,4 +36,6 @@ The following instructions explain how to install jetset from the binaries distr
 
    `python jetset_installer.py 1.2.0rc8`
 
+**run the code and the example in a different directory**
+
 Now jetset with all the dependencies is installed!
