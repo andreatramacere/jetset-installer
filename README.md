@@ -27,7 +27,7 @@ The following instructions explain how to install jetset from the binaries distr
 ## Install wget
 
 4) be sure that the following package is installed: wget 
-   - for conda: `conda install -c conda-forge wget python-wget`
+   - for conda: `conda install -c conda-forge wget python-wget -y`
    - for pip: `pip install wget`
 
 ## JetSeT installation
